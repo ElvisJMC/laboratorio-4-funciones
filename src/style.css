@@ -1,3 +1,77 @@
+.turno-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.numero-turno {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.texto-turno {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.contenedor-botones {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.contenedor-botones button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 25px 45px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+.contenedor-cambio-turno {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+  width: 30%;
+}
+
+#cambiar-turno {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  font-size: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+/*Código que viene de serie*/
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
